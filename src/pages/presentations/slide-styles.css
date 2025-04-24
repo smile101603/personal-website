@@ -1,0 +1,98 @@
+@page {
+  size: 1600px 900px;
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #121128;
+}
+
+.remark-slide-content h1,
+.remark-slide-content h2,
+.remark-slide-content h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-weight: 600;
+  color: #121128;
+  line-height: 1.2;
+}
+
+.remark-slide-content h1 {
+  text-align: left;
+  max-width: 65%;
+  margin-left: 5%;
+}
+
+.remark-slide-content h2 {
+  margin-top: 15%;
+  margin-left: 5%;
+  position: relative;
+  color: #4c3ff7 !important;
+  font-size: 30px !important;
+  margin-bottom: 3%;
+}
+
+.remark-slide-content h3 {
+  margin-top: 8%;
+  position: relative;
+  color: #4c3ff7 !important;
+  font-size: 25px !important;
+  margin-bottom: 2%;
+}
+
+.remark-slide-content h4 {
+  margin-top: 2%;
+  position: relative;
+  color: #4c3ff7 !important;
+  font-size: 20px !important;
+}
+
+li::marker {
+  color: #ff6804;
+}
+
+li {
+  font-size: 20px !important;
+  font-weight: 600;
+  max-width: 65%;
+}
+
+ul li li {
+  font-size: 14px !important;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+/* pre element to h2 */
+.remark-slide-content h2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -8%;
+  height: 2px;
+  width: 6%;
+  background: #4c3ff7;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-family: "Poppins", sans-serif;
+  color: #121128;
+}
+
+.remark-slide-content {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://i.imgur.com/wUMHHNI.png");
+}
