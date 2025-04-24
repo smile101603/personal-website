@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/53957795/147169237-fc6b2658-7d7f-4d02-b75e-dcf06f5e6b93.png)
+![image](https://github.com/smile101603/personal-website/src/screen.jpg)
 
 ## About
 
