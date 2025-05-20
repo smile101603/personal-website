@@ -1,4 +1,4 @@
-![image](https://github.com/smile101603/personal-website/blob/main/src/screen.jpg)
+![image](https://github.com/smile101603/personal-website/blob/maisn/src/screen.jpg)
 
 ## About
 
